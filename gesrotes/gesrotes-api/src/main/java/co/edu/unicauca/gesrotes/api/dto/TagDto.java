@@ -1,0 +1,12 @@
+package co.edu.unicauca.gesrotes.api.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+@Getter
+@Setter
+@NoArgsConstructor
+public class TagDto {
+    private Integer id;
+    private String name;
+}
